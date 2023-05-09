@@ -1,0 +1,80 @@
+/* colors
+bg orange #ff9501
+grey #a6a6a6
+white #fdfdfd
+*/
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.calc {
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #333333;
+  font-family: -apple-system;
+  padding: 15px;
+  box-shadow: 4px 4px 4px #f4f4f4;
+}
+
+.calc-screen {
+  height: 120px;
+  padding: 10px;
+  text-align: end;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0;
+  font-size: 4rem;
+  color: #5f5f5f;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+  margin: 5px;
+}
+
+/* .btn:hover {
+  filter: brightness(120%);
+} */
+/* .btn:active {
+  filter: brightness(90%);
+} */
+
+.btn.ac {
+  color: red;
+}
+
+.btn.-green {
+  color: green;
+}
+
+.btn.-bgGreen {
+  background-color: green;
+  color: #fff;
+}
